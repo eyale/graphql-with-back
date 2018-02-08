@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Root = () => {
-  return <div>Lyrical</div>
+class Root extends React.Component {
+  render() {
+    return (
+      <p>Lyrical</p>
+    );
+  }
 };
 
 ReactDOM.render(
